@@ -1,6 +1,6 @@
 do
 local function run(msg, matches)
-local bot_id = id-bot 141136595
+local bot_id = id-bot141136595
 
 
     if matches[1] == 'left' and is_admin(msg) or msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_sudo(msg) then
